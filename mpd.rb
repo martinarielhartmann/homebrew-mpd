@@ -11,7 +11,7 @@ class Mpd < Formula
   end
 
   head do
-    url "git://yousource.it.jyu.fi/~maarhart/npng/mpd.git"
+    url "https://github.com/martinarielhartmann/MPD.git"
     depends_on "autoconf" => :build
     depends_on "automake" => :build
   end
